@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.testproject.TestActivity$PlaceholderFragment" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+	    	<Button 
+				android:id="@+id/increase_voice"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/increase_voice"/>
+	    	
+	    	<Button 
+				android:id="@+id/decrease_voice"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/decrease_voice"/>
+	    </LinearLayout>
+<!--  
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+	    	<Button 
+				android:id="@+id/increase_dtmf"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/increase_dtmf"/>
+	    	
+	    	<Button 
+				android:id="@+id/decrease_dtmf"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/decrease_dtmf"/>
+	    </LinearLayout>
+    	
+    	<LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+	    	<Button 
+				android:id="@+id/increase_ring"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/increase_ring"/>
+	    	
+	    	<Button 
+				android:id="@+id/decrease_ring"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/decrease_ring"/>
+	    </LinearLayout>
+    	
+    	<LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+	    	<Button 
+				android:id="@+id/increase_system"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/increase_system"/>
+	    	
+	    	<Button 
+				android:id="@+id/decrease_system"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/decrease_system"/>
+	    </LinearLayout>
+    	
+    	<LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+	    	<Button 
+				android:id="@+id/increase_music"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/increase_music"/>
+	    	
+	    	<Button 
+				android:id="@+id/decrease_music"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/decrease_music"/>
+	    </LinearLayout>
+    	
+    	<LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+	    	<Button 
+				android:id="@+id/increase_alarm"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/increase_alarm"/>
+	    	
+	    	<Button 
+				android:id="@+id/decrease_alarm"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/decrease_alarm"/>
+	    </LinearLayout>
+    	
+    	<LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal" >
+	    	<Button 
+				android:id="@+id/increase_notification"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/increase_notification"/>
+	    	
+	    	<Button 
+				android:id="@+id/decrease_notification"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:text="@string/decrease_notification"/>
+	    </LinearLayout>
+-->
+    </LinearLayout>
+
+</RelativeLayout>

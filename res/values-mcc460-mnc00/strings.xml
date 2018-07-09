@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- dialog resource -->
+    <string name="dialog_title">标题</string>
+    <string name="positive">确认</string>
+    <string name="negative">取消</string>
+</resources>

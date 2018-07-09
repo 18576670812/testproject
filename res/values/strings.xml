@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">testproject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="increase_voice">turn voice volume up</string>
+    <string name="decrease_voice">turn voice volume down</string>
+    <string name="increase_dtmf">turn dtmf volume up</string>
+    <string name="decrease_dtmf">turn dtmf volume down</string>
+    <string name="increase_ring">turn ring volume up</string>
+    <string name="decrease_ring">turn ring volume down</string>
+    <string name="increase_system">turn system volume up</string>
+    <string name="decrease_system">turn system volume down</string>
+    <string name="increase_music">turn music volume up</string>
+    <string name="decrease_music">turn music volume down</string>
+    <string name="increase_alarm">turn alarm volume up</string>
+    <string name="decrease_alarm">turn alarm volume down</string>
+    <string name="increase_notification">turn notification volume up</string>
+    <string name="decrease_notification">turn notification volume down</string>
+
+    <!-- dialog resource -->
+    <string name="dialog_title">title</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="neutral">Neutral</string>
+</resources>
